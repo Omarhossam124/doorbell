@@ -84,16 +84,22 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "../"
+  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include"
+  "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib/include"
+  "C:/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src"
+  "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include"
+  "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_atomic/include"
   "C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src"
-  "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib_headers/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_base/include"
+  "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib_headers/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base_headers/include"
   "generated/pico_base"
   "C:/VSARM/sdk/pico/pico-sdk/src/boards/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2040/pico_platform/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include"
-  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_base/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform_panic/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform_sections/include"
@@ -138,6 +144,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2040/boot_stage2/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/common/boot_picobin_headers/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -171,6 +178,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2040/pico_platform/platform.c" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj" "gcc" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj.d"
+  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj" "gcc" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
@@ -215,6 +223,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "Z:/doorbell/pir.c" "CMakeFiles/blink.dir/pir.c.obj" "gcc" "CMakeFiles/blink.dir/pir.c.obj.d"
   "Z:/doorbell/servo.c" "CMakeFiles/blink.dir/servo.c.obj" "gcc" "CMakeFiles/blink.dir/servo.c.obj.d"
   "Z:/doorbell/ultrasonic_sensor.c" "CMakeFiles/blink.dir/ultrasonic_sensor.c.obj" "gcc" "CMakeFiles/blink.dir/ultrasonic_sensor.c.obj.d"
+  "Z:/doorbell/wifi.c" "CMakeFiles/blink.dir/wifi.c.obj" "gcc" "CMakeFiles/blink.dir/wifi.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj" "gcc" "CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d"
   )
 

@@ -1,9 +1,13 @@
 # Hashes of file build rules.
+bbd33e78d20ca64e688987628633adb6 CMakeFiles/picotoolBuild-complete
 731cd922943bbe5c57e09b9f0c18cf0c pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
 731cd922943bbe5c57e09b9f0c18cf0c pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
+731cd922943bbe5c57e09b9f0c18cf0c pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
 89badfbde7105d9641326209b089301e pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete
+f6b188b21e205e51cebe16684e1597d3 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure
 30d01b82c6772a82ce8c758af7859176 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 d2c0eea4aa0da74f04cab609a54a860c pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
+c3a470bc4d77087f062c73daeda80b86 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
 dc44ed52fae29b15420a147d7d800c9d pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
 70c7c6484476d2176f2532683df7d30e pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
 452f185e5774ff966b6679d4302d0e2a pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
@@ -22,3 +26,10 @@ f4718764e4f9a7c64336af314d3521a4 pico-sdk/src/rp2_common/pico_cyw43_driver/pioas
 2e753215100a4e5325520246ccac4aa5 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir
 9cb19f70ed2f498f4b671eff4a8edd53 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch
 dedd8713241e8b3758dd15bb43341e96 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update
+61bac2fb263cf6d47424eca874ee613b picotool/src/picotoolBuild-stamp/picotoolBuild-configure
+4d555667b2b116ef683fbb6abc87e841 picotool/src/picotoolBuild-stamp/picotoolBuild-download
+2c10eebd51169df5ab21594c1eb4c5fe picotool/src/picotoolBuild-stamp/picotoolBuild-install
+5e98135ef4f5a657e3cfe79f7670d23c picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
+5dbce87bc1804ced1cadf36f20fb45e9 picotool/src/picotoolBuild-stamp/picotoolBuild-patch
+eb68f5c7237b780d9e45fedc84817c34 picotool/src/picotoolBuild-stamp/picotoolBuild-test
+3f46d650b5d911aaef09059fa1e5e3ef picotool/src/picotoolBuild-stamp/picotoolBuild-update

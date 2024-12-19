@@ -35,10 +35,10 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: Z:/doorbell/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_56b6d/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_56b6d.dir\build.make CMakeFiles/cmTC_56b6d.dir/build
+Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_7965f/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7965f.dir\build.make CMakeFiles/cmTC_7965f.dir/build
 mingw32-make.exe[1]: Entering directory 'Z:/doorbell/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_56b6d.dir/CMakeCCompilerABI.c.obj
-C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Building C object CMakeFiles/cmTC_7965f.dir/CMakeCCompilerABI.c.obj
+C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE
 Target: arm-none-eabi
@@ -46,8 +46,8 @@ Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipelin
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
- c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\vsarm\armcc\102021~1.10\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Omarh\AppData\Local\Temp\ccLpZK4Z.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\vsarm\armcc\102021~1.10\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Omarh\AppData\Local\Temp\ccLVK2xK.s
 GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
 	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -68,15 +68,15 @@ GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (relea
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
- c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj C:\Users\Omarh\AppData\Local\Temp\ccLpZK4Z.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj C:\Users\Omarh\AppData\Local\Temp\ccLVK2xK.s
 GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
 COMPILER_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-Linking C executable cmTC_56b6d.elf
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_56b6d.dir\link.txt --verbose=1
-C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_56b6d.dir/CMakeCCompilerABI.c.obj -o cmTC_56b6d.elf 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+Linking C executable cmTC_7965f.elf
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7965f.dir\link.txt --verbose=1
+C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_7965f.dir/CMakeCCompilerABI.c.obj -o cmTC_7965f.elf 
 Using built-in specs.
 COLLECT_GCC=C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE
 COLLECT_LTO_WRAPPER=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
@@ -87,10 +87,10 @@ Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
 COMPILER_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_56b6d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
- c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccjz6Jx9.res --sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -X -o cmTC_56b6d.elf -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_56b6d.dir/CMakeCCompilerABI.c.obj
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_7965f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccxGWMEQ.res --sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -X -o cmTC_7965f.elf -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_7965f.dir/CMakeCCompilerABI.c.obj
 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_56b6d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_7965f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
 mingw32-make.exe[1]: Leaving directory 'Z:/doorbell/build/CMakeFiles/CMakeTmp'
 
 
@@ -112,10 +112,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: Z:/doorbell/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_56b6d/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_56b6d.dir\build.make CMakeFiles/cmTC_56b6d.dir/build]
+  ignore line: [Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_7965f/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7965f.dir\build.make CMakeFiles/cmTC_7965f.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'Z:/doorbell/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_56b6d.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Building C object CMakeFiles/cmTC_7965f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE]
   ignore line: [Target: arm-none-eabi]
@@ -123,8 +123,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-  ignore line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\vsarm\armcc\102021~1.10\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Omarh\AppData\Local\Temp\ccLpZK4Z.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+  ignore line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\vsarm\armcc\102021~1.10\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Omarh\AppData\Local\Temp\ccLVK2xK.s]
   ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -145,8 +145,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-  ignore line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj C:\Users\Omarh\AppData\Local\Temp\ccLpZK4Z.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+  ignore line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj C:\Users\Omarh\AppData\Local\Temp\ccLVK2xK.s]
   ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
   ignore line: [COMPILER_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/]
@@ -158,10 +158,10 @@ Parsed C implicit link information from above output:
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_56b6d.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-  ignore line: [Linking C executable cmTC_56b6d.elf]
-  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_56b6d.dir\link.txt --verbose=1]
-  ignore line: [C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_56b6d.dir/CMakeCCompilerABI.c.obj -o cmTC_56b6d.elf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_7965f.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+  ignore line: [Linking C executable cmTC_7965f.elf]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7965f.dir\link.txt --verbose=1]
+  ignore line: [C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_7965f.dir/CMakeCCompilerABI.c.obj -o cmTC_7965f.elf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE]
   ignore line: [COLLECT_LTO_WRAPPER=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
@@ -180,17 +180,17 @@ Parsed C implicit link information from above output:
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_56b6d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-  link line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccjz6Jx9.res --sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -X -o cmTC_56b6d.elf -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_56b6d.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_7965f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+  link line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccxGWMEQ.res --sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -X -o cmTC_7965f.elf -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_7965f.dir/CMakeCCompilerABI.c.obj]
     arg [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccjz6Jx9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccxGWMEQ.res] ==> ignore
     arg [--sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_56b6d.elf] ==> ignore
+    arg [cmTC_7965f.elf] ==> ignore
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -199,7 +199,7 @@ Parsed C implicit link information from above output:
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib]
     arg [--build-id=none] ==> ignore
-    arg [CMakeFiles/cmTC_56b6d.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_7965f.dir/CMakeCCompilerABI.c.obj] ==> ignore
   collapse library dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [C:/VSARM/armcc/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
   collapse library dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/VSARM/armcc/10 2021.10/arm-none-eabi/lib/thumb/v6-m/nofp]
   collapse library dir [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/VSARM/armcc/10 2021.10/arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -216,10 +216,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: Z:/doorbell/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_8c1ed/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8c1ed.dir\build.make CMakeFiles/cmTC_8c1ed.dir/build
+Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_9e7a8/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9e7a8.dir\build.make CMakeFiles/cmTC_9e7a8.dir/build
 mingw32-make.exe[1]: Entering directory 'Z:/doorbell/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8c1ed.dir/CMakeCXXCompilerABI.cpp.obj
-C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+Building CXX object CMakeFiles/cmTC_9e7a8.dir/CMakeCXXCompilerABI.cpp.obj
+C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE
 Target: arm-none-eabi
@@ -227,8 +227,8 @@ Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipelin
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
- c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\vsarm\armcc\102021~1.10\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Omarh\AppData\Local\Temp\ccgVspdo.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\vsarm\armcc\102021~1.10\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Omarh\AppData\Local\Temp\ccr7kqCd.s
 GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
 	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -255,15 +255,15 @@ GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (rel
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
- c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Omarh\AppData\Local\Temp\ccgVspdo.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Omarh\AppData\Local\Temp\ccr7kqCd.s
 GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
 COMPILER_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-Linking CXX executable cmTC_8c1ed.elf
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8c1ed.dir\link.txt --verbose=1
-C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_8c1ed.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8c1ed.elf 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+Linking CXX executable cmTC_9e7a8.elf
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9e7a8.dir\link.txt --verbose=1
+C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_9e7a8.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_9e7a8.elf 
 Using built-in specs.
 COLLECT_GCC=C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE
 COLLECT_LTO_WRAPPER=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
@@ -274,10 +274,10 @@ Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
 COMPILER_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/;c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8c1ed.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
- c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccYx7b5t.res --sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -X -o cmTC_8c1ed.elf -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_8c1ed.dir/CMakeCXXCompilerABI.cpp.obj
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9e7a8.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccMTIb7b.res --sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -X -o cmTC_9e7a8.elf -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_9e7a8.dir/CMakeCXXCompilerABI.cpp.obj
 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8c1ed.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9e7a8.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
 mingw32-make.exe[1]: Leaving directory 'Z:/doorbell/build/CMakeFiles/CMakeTmp'
 
 
@@ -305,10 +305,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: Z:/doorbell/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_8c1ed/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8c1ed.dir\build.make CMakeFiles/cmTC_8c1ed.dir/build]
+  ignore line: [Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_9e7a8/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9e7a8.dir\build.make CMakeFiles/cmTC_9e7a8.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'Z:/doorbell/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8c1ed.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_9e7a8.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE]
   ignore line: [Target: arm-none-eabi]
@@ -316,8 +316,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-  ignore line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\vsarm\armcc\102021~1.10\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Omarh\AppData\Local\Temp\ccgVspdo.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+  ignore line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\vsarm\armcc\102021~1.10\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Omarh\AppData\Local\Temp\ccr7kqCd.s]
   ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -344,8 +344,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-  ignore line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Omarh\AppData\Local\Temp\ccgVspdo.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+  ignore line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Omarh\AppData\Local\Temp\ccr7kqCd.s]
   ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
   ignore line: [COMPILER_PATH=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/]
@@ -357,10 +357,10 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_8c1ed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-  ignore line: [Linking CXX executable cmTC_8c1ed.elf]
-  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8c1ed.dir\link.txt --verbose=1]
-  ignore line: [C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_8c1ed.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8c1ed.elf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9e7a8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+  ignore line: [Linking CXX executable cmTC_9e7a8.elf]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9e7a8.dir\link.txt --verbose=1]
+  ignore line: [C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_9e7a8.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_9e7a8.elf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE]
   ignore line: [COLLECT_LTO_WRAPPER=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
@@ -379,17 +379,17 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8c1ed.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-  link line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccYx7b5t.res --sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -X -o cmTC_8c1ed.elf -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_8c1ed.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9e7a8.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+  link line: [ c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccMTIb7b.res --sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi -X -o cmTC_9e7a8.elf -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc -Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_9e7a8.dir/CMakeCXXCompilerABI.cpp.obj]
     arg [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccYx7b5t.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Omarh\AppData\Local\Temp\ccMTIb7b.res] ==> ignore
     arg [--sysroot=c:\vsarm\armcc\102021~1.10\bin\../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8c1ed.elf] ==> ignore
+    arg [cmTC_9e7a8.elf] ==> ignore
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -398,7 +398,7 @@ Parsed CXX implicit link information from above output:
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
     arg [-Lc:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib] ==> dir [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib]
     arg [--build-id=none] ==> ignore
-    arg [CMakeFiles/cmTC_8c1ed.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_9e7a8.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
   collapse library dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [C:/VSARM/armcc/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
   collapse library dir [c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/VSARM/armcc/10 2021.10/arm-none-eabi/lib/thumb/v6-m/nofp]
   collapse library dir [c:/vsarm/armcc/102021~1.10/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/VSARM/armcc/10 2021.10/arm-none-eabi/lib/thumb/v6-m/nofp]

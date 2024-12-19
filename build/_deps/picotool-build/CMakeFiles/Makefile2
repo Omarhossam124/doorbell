@@ -457,11 +457,11 @@ CMakeFiles/binary_data.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/picotool.dir/all: errors/CMakeFiles/errors.dir/all
-CMakeFiles/picotool.dir/all: elf/CMakeFiles/elf.dir/all
 CMakeFiles/picotool.dir/all: elf2uf2/CMakeFiles/elf2uf2.dir/all
+CMakeFiles/picotool.dir/all: elf/CMakeFiles/elf.dir/all
 CMakeFiles/picotool.dir/all: lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/all
-CMakeFiles/picotool.dir/all: lib/mbedtls/library/CMakeFiles/mbedtls.dir/all
 CMakeFiles/picotool.dir/all: lib/mbedtls/library/CMakeFiles/mbedx509.dir/all
+CMakeFiles/picotool.dir/all: lib/mbedtls/library/CMakeFiles/mbedtls.dir/all
 CMakeFiles/picotool.dir/all: bintool/CMakeFiles/bintool.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\picotool.dir\build.make CMakeFiles/picotool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\picotool.dir\build.make CMakeFiles/picotool.dir/build
@@ -646,8 +646,8 @@ lib/mbedtls/library/CMakeFiles/mbedx509.dir/clean:
 
 # All Build rule for target.
 lib/mbedtls/library/CMakeFiles/lib.dir/all: lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/all
-lib/mbedtls/library/CMakeFiles/lib.dir/all: lib/mbedtls/library/CMakeFiles/mbedtls.dir/all
 lib/mbedtls/library/CMakeFiles/lib.dir/all: lib/mbedtls/library/CMakeFiles/mbedx509.dir/all
+lib/mbedtls/library/CMakeFiles/lib.dir/all: lib/mbedtls/library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) $(MAKESILENT) -f lib\mbedtls\library\CMakeFiles\lib.dir\build.make lib/mbedtls/library/CMakeFiles/lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\mbedtls\library\CMakeFiles\lib.dir\build.make lib/mbedtls/library/CMakeFiles/lib.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\doorbell\build\_deps\picotool-build\CMakeFiles --progress-num= "Built target lib"
@@ -703,8 +703,8 @@ lib/mbedtls/library/CMakeFiles/mbedtls.dir/clean:
 bintool/CMakeFiles/bintool.dir/all: errors/CMakeFiles/errors.dir/all
 bintool/CMakeFiles/bintool.dir/all: elf/CMakeFiles/elf.dir/all
 bintool/CMakeFiles/bintool.dir/all: lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/all
-bintool/CMakeFiles/bintool.dir/all: lib/mbedtls/library/CMakeFiles/mbedtls.dir/all
 bintool/CMakeFiles/bintool.dir/all: lib/mbedtls/library/CMakeFiles/mbedx509.dir/all
+bintool/CMakeFiles/bintool.dir/all: lib/mbedtls/library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) $(MAKESILENT) -f bintool\CMakeFiles\bintool.dir\build.make bintool/CMakeFiles/bintool.dir/depend
 	$(MAKE) $(MAKESILENT) -f bintool\CMakeFiles\bintool.dir\build.make bintool/CMakeFiles/bintool.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\doorbell\build\_deps\picotool-build\CMakeFiles --progress-num=2,3,4 "Built target bintool"

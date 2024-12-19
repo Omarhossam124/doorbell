@@ -116,6 +116,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/rule:
+	cd /d Z:\doorbell\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/rule
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/rule
+
+# Convenience name for target.
+picotoolBuild: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/rule
+.PHONY : picotoolBuild
+
+# fast build rule for target.
+picotoolBuild/fast:
+	cd /d Z:\doorbell\build && $(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2040\boot_stage2\CMakeFiles\picotoolBuild.dir\build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build
+.PHONY : picotoolBuild/fast
+
+# Convenience name for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule:
 	cd /d Z:\doorbell\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
@@ -128,6 +142,20 @@ bs2_default: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
 bs2_default/fast:
 	cd /d Z:\doorbell\build && $(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default.dir\build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
+
+# Convenience name for target.
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/rule:
+	cd /d Z:\doorbell\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/rule
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/rule
+
+# Convenience name for target.
+picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/rule
+.PHONY : picotoolForceReconfigure
+
+# fast build rule for target.
+picotoolForceReconfigure/fast:
+	cd /d Z:\doorbell\build && $(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2040\boot_stage2\CMakeFiles\picotoolForceReconfigure.dir\build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build
+.PHONY : picotoolForceReconfigure/fast
 
 # Convenience name for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule:
@@ -175,6 +203,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
+	@echo ... picotoolBuild
+	@echo ... picotoolForceReconfigure
 	@echo ... bs2_default
 	@echo ... compile_time_choice.obj
 .PHONY : help

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "mpconfig.h": "c",
+        "runtime.h": "c",
+        "mpstate.h": "c",
+        "obj.h": "c",
+        "stdlib.h": "c",
+        "cyw43_arch.h": "c",
+        "cyw43.h": "c",
+        "cyw43_config.h": "c"
+    }
+}
